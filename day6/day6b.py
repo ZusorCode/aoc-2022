@@ -1,6 +1,6 @@
 from aocd import data, submit
 
-for i in range(len(data) - 4):
-    if len(set(data[i:i+4])) == 4:
-        submit(i + 4)
+for i in range(len(data) - 14):
+    if len(set(data[i:i+14])) == 14:
+        submit(i + 14)
         break
